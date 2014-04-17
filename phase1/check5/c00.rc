@@ -1,0 +1,9 @@
+function : void foo( int x )
+{
+}
+
+function : int main()
+{
+    bool t = true;
+    foo( t );
+}
