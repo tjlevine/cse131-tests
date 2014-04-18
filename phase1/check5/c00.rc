@@ -1,9 +1,16 @@
-function : void foo( int x )
+function : int bar( float a, int b, char c, bool b )
 {
+}
+
+function : void foo( int& x )
+{
+    char f = 'c';
+    bool n = false;
+    bar( 1.0, 5, f, n );
 }
 
 function : int main()
 {
-    bool t = true;
+    char t = '1';
     foo( t );
 }
