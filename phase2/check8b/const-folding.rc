@@ -1,0 +1,11 @@
+// should be folded into 11
+const int x = 10 - 2 + 3;
+
+// should be folded into 2
+const int y = 3 * 2 * 4 / 12;
+
+// should be folded into 1
+const int z = 0x03 & 0x01;
+
+// should be folded into true
+const bool b = false || true;
