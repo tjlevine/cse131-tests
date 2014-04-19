@@ -1,0 +1,7 @@
+function : void a(int x) {}
+
+function : void main()
+{
+    auto f = 1;
+    a(f);
+}
