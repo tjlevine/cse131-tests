@@ -1,0 +1,5 @@
+const int x = true;
+
+int y = 12.0;
+
+const int z = y + 4;
