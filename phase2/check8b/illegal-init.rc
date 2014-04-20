@@ -3,3 +3,5 @@ const int x = true;
 int y = 12.0;
 
 const int z = y + 4;
+
+const int a = 2, b = 3, c = true, d = 1.0;
