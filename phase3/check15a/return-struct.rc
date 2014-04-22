@@ -1,0 +1,11 @@
+structdef MYSTRUCT
+{
+    int a, b;
+    bool c;
+};
+
+function : MYSTRUCT test()
+{
+    MYSTRUCT s;
+    return s;
+}

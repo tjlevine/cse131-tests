@@ -1,0 +1,6 @@
+function : int test()
+{
+    int[5] b;
+    int* a = b;
+    return *a;
+}

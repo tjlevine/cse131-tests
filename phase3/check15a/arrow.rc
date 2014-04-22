@@ -1,0 +1,11 @@
+structdef MYSTRUCT
+{
+    int a, b;
+    bool c;
+};
+
+function : void test()
+{
+    MYSTRUCT *p;
+    p->a = 2;
+}
