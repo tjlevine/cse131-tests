@@ -1,0 +1,19 @@
+structdef MYSTRUCT
+{
+    int a;
+    bool b;
+    float c;
+};
+
+function : int main()
+{
+    MYSTRUCT* p;
+    (*p).a = 1;
+    p->b = true;
+    p->c = 4; // int to float coercion
+
+    int* p2;
+    *p2 = p->a;
+
+    return *p2;
+}
