@@ -1,0 +1,5 @@
+Error, "phase3/check21/spec-addressof.rc": 
+  Operand to = is not a modifiable L-value.
+Error, "phase3/check21/spec-addressof.rc": 
+  Operand to = is not a modifiable L-value.
+Compile: failure.
