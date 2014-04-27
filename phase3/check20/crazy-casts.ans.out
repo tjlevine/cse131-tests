@@ -4,4 +4,6 @@ Error, "phase3/check20/crazy-casts.rc":
   Invalid type cast. Type struct S* to type struct S is not supported.
 Error, "phase3/check20/crazy-casts.rc": 
   Invalid type cast. Type int[10] to type float* is not supported.
+Error, "phase3/check20/crazy-casts.rc": 
+  syntax error near "i".
 Compile: failure.

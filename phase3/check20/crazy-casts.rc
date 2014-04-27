@@ -31,4 +31,10 @@ function : void main()
     // try to cast array to bool ptr
     (float*) a;
 
+    // try casting nullptr to int (this should work)
+    (int) nullptr;
+
+    // try casting int to nullptr (this should not work, and is a syntax error)
+    (nullptr) i;
+
 }
