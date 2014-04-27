@@ -1,0 +1,9 @@
+Error, "phase3/check20/casting.rc": 
+  Invalid type cast. Type int[10] to type int is not supported.
+Error, "phase3/check20/casting.rc": 
+  Invalid type cast. Type int[10] to type bool is not supported.
+Error, "phase3/check20/casting.rc": 
+  Invalid type cast. Type struct S to type int is not supported.
+Error, "phase3/check20/casting.rc": 
+  Invalid type cast. Type struct S to type bool is not supported.
+Compile: failure.

@@ -1,0 +1,34 @@
+structdef S
+{
+    int these, fields, dont, matter, at, all;
+};
+
+function : void main()
+{
+    const int i = 1;
+    const float f = 1;
+    const bool b = true;
+
+    int *ip;
+    float *fp;
+    bool *bp;
+
+    S s;
+    S *sp;
+
+    int [10]a;
+
+
+    // try to cast to int array type using decltype
+    (decltype(a)) b;
+
+    // try to cast struct ptr to struct using decltype
+    (decltype(s)) sp;
+
+    // try to cast to int using decltype (should work)
+    (decltype(i)) b;
+
+    // try to cast array to bool ptr
+    (float*) a;
+
+}
