@@ -1,0 +1,3 @@
+Error, "phase1/check1/c00.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Compile: failure.

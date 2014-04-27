@@ -1,8 +1,5 @@
 function : int main() {
-  int y = 10
   const int x = 5;
-  y++;
-  --y;
   x++;
   ++x;
   return 0;

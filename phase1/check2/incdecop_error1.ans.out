@@ -1,0 +1,5 @@
+Error, "phase1/check2/incdecop_error1.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "phase1/check2/incdecop_error1.rc": 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Compile: failure.

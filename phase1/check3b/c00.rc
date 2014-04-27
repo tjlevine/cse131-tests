@@ -1,6 +1,6 @@
-static float f = 5.5;
+static int f = 5;
 function : void foo()
 {
-    static int f;
+    static float f = 2;
     f = ::f;
 }

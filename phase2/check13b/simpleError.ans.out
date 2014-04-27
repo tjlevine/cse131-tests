@@ -1,0 +1,3 @@
+Error, "phase2/check13b/simpleError.rc": 
+  Size of field myRecursiveStruct cannot be determined at compile time.
+Compile: failure.

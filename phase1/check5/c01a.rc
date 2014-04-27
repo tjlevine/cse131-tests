@@ -1,0 +1,6 @@
+function: void t( bool b ) {}
+
+function: void main()
+{
+    t(1);
+}

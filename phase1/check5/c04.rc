@@ -1,0 +1,19 @@
+function : float& bar( float& a, int b, bool b )
+{
+    return a;
+}
+
+function : float& foo( int& x )
+{
+    bool n = false;
+    float t = 1.0;
+    return bar( t, 5, n );
+
+}
+
+function : int main()
+{
+    int f;
+    foo( f ) = 2;
+    return 0;
+}

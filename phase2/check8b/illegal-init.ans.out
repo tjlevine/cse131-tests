@@ -1,9 +1,9 @@
 Error, "phase2/check8b/illegal-init.rc": 
   Initialization value of type bool not assignable to constant/variable of type int.
 Error, "phase2/check8b/illegal-init.rc": 
-  Value of type float not assignable to variable of type int.
+  Initialization value of type float not assignable to constant/variable of type int.
 Error, "phase2/check8b/illegal-init.rc": 
-  Initialization value of constant named z not known at compile time.
-Error, "": 
+  Initialization value of global/static variable named z not known at compile time.
+Error, "phase2/check8b/illegal-init.rc": 
   Initialization value of type bool not assignable to constant/variable of type int.
 Compile: failure.

@@ -1,5 +1,6 @@
 int[10.2] a;
 float[-3] y;
 bool[true] b;
-char[a] x;
+int c;
+char[c] x;
 

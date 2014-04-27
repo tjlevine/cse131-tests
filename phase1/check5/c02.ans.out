@@ -1,0 +1,3 @@
+Error, "phase1/check5/c02.rc": 
+  Argument of type int not equivalent to reference parameter b, of type bool.
+Compile: failure.
