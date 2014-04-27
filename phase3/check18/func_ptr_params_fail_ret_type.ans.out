@@ -1,0 +1,3 @@
+Error, "phase3/check18/func_ptr_params_fail_ret_type.rc": 
+  Value of type funcptr : float (int a, float b) not assignable to variable of type funcptr : int (int x, float y).
+Compile: failure.

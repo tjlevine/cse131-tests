@@ -1,0 +1,8 @@
+funcptr : int (int x, float y) myPtr1;
+function : int test_int_func(int a, float b) {
+    return 0;
+}
+function : int main() {
+    myPtr1 = test_int_func;
+    return 0;
+}

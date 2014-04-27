@@ -1,0 +1,1 @@
+function : void foo() { return; } function : int main() { foo(); return 0; }
