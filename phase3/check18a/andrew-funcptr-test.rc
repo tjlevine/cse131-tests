@@ -5,4 +5,5 @@ function : int test(int a, float b) {
 }
 function : int main() {
     myPtr1 = test;
+    return myPtr1(2, 3.0);
 }

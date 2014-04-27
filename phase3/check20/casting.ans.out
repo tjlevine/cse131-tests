@@ -1,15 +1,15 @@
 Error, "phase3/check20/casting.rc": 
-  Invalid type cast. Type int to type struct S is not supported.
+  Invalid type cast. Type int to type S is not supported.
 Error, "phase3/check20/casting.rc": 
-  Invalid type cast. Type struct S* to type struct S is not supported.
+  Invalid type cast. Type S* to type S is not supported.
 Error, "phase3/check20/casting.rc": 
-  Invalid type cast. Type bool* to type struct S is not supported.
+  Invalid type cast. Type bool* to type S is not supported.
 Error, "phase3/check20/casting.rc": 
   Invalid type cast. Type int[10] to type int is not supported.
 Error, "phase3/check20/casting.rc": 
   Invalid type cast. Type int[10] to type bool is not supported.
 Error, "phase3/check20/casting.rc": 
-  Invalid type cast. Type struct S to type int is not supported.
+  Invalid type cast. Type S to type int is not supported.
 Error, "phase3/check20/casting.rc": 
-  Invalid type cast. Type struct S to type bool is not supported.
+  Invalid type cast. Type S to type bool is not supported.
 Compile: failure.
