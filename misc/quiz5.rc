@@ -1,0 +1,9 @@
+function : float foo ( float& a ) { int b; return b; }
+
+float x;
+int y;
+
+function : void main()
+{
+    x = foo( foo( x ) );
+}
