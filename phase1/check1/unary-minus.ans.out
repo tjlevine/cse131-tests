@@ -1,3 +1,0 @@
-Error, "phase1/check1/unary-minus.rc": 
-  Incompatible type bool to unary operator -, equivalent to int expected.
-Compile: failure.

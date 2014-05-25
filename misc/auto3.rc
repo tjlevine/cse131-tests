@@ -1,7 +1,0 @@
-function : void a(int x) {}
-
-function : void main()
-{
-    auto f = true;
-    a(f);
-}

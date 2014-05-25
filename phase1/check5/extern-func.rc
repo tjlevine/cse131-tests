@@ -1,1 +1,0 @@
-extern function: int test( int a, float b );

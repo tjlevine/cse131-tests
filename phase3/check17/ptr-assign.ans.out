@@ -1,5 +1,0 @@
-Error, "phase3/check17/ptr-assign.rc": 
-  Value of type float* not assignable to variable of type int*.
-Error, "phase3/check17/ptr-assign.rc": 
-  Value of type int[2] not assignable to variable of type float*.
-Compile: failure.

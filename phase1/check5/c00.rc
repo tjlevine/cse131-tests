@@ -1,9 +1,0 @@
-function : void foo( int x )
-{
-
-}
-
-function : void main()
-{
-    foo();
-}

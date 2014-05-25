@@ -1,9 +1,0 @@
-typedef funcptr : int (int x, float y) MYPTRALIAS;
-MYPTRALIAS myPtr1;
-function : int test(int a, float b) {
-    return 0;
-}
-function : int main() {
-    myPtr1 = test;
-    return myPtr1(2, 3.0);
-}

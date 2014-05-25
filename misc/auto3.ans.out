@@ -1,3 +1,0 @@
-Error, "misc/auto3.rc": 
-  Argument of type bool not assignable to value parameter x, of type int.
-Compile: failure.

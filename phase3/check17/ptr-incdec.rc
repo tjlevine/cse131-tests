@@ -1,9 +1,0 @@
-function : void main()
-{
-    int* p;
-
-    p++;
-    ++p;
-    p--;
-    --p;
-}

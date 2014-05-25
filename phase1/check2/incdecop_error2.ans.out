@@ -1,5 +1,0 @@
-Error, "phase1/check2/incdecop_error2.rc": 
-  Operand to ++ is not a modifiable L-value.
-Error, "phase1/check2/incdecop_error2.rc": 
-  Operand to ++ is not a modifiable L-value.
-Compile: failure.

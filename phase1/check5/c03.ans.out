@@ -1,3 +1,0 @@
-Error, "phase1/check5/c03.rc": 
-  Argument passed to reference parameter b (type bool) is not a modifiable L-value.
-Compile: failure.
