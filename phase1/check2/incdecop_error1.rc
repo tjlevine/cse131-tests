@@ -1,6 +1,0 @@
-bool x = true;
-function : int main() {
-  x++;
-  --x;
-  return 0;
-}

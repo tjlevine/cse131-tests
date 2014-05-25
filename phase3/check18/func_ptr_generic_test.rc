@@ -1,2 +1,0 @@
-typedef funcptr : int (int x, int y) MYPTRALIAS;
-MYPTRALIAS myPtr1, myPtr2;

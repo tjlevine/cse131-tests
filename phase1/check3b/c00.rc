@@ -1,6 +1,0 @@
-static int f = 5;
-function : void foo()
-{
-    static float f = 2;
-    f = ::f;
-}
