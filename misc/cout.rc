@@ -1,4 +1,4 @@
 function : void main()
 {
-    cout << "ABC";
+    cout << "ABC " << 123 << " " << 4.567 << " " << false << endl;
 }
