@@ -4,4 +4,6 @@ function : void main()
 {
     int a;
     a = b;
+
+    cout << a << endl;
 }
