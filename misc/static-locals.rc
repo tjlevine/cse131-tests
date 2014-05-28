@@ -2,5 +2,5 @@ function : void main()
 {
     static int i = 0;
     static int j;
-    static int k = 2.0;
+    static float k = 2.0;
 }
