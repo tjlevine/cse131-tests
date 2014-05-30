@@ -1,8 +1,0 @@
-function : void main()
-{
-    int a;
-    int b = 2;
-    a = b;
-
-    cout << a << endl;
-}
