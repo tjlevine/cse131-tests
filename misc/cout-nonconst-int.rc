@@ -1,5 +1,0 @@
-function : void main()
-{
-    int b = 5;
-    cout << b << endl;
-}

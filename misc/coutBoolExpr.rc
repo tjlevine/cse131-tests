@@ -1,5 +1,0 @@
-function : void main(){
-    bool a = true;
-    bool b = true;
-    cout << a<b << endl;
-}
