@@ -1,4 +1,4 @@
 function : void main()
 {
-    cout << false;
+    cout << false << endl;
 }
