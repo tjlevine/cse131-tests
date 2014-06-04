@@ -6,13 +6,13 @@ function : void main(){
 
 	if(b>a){
 		if(c>b){
-			cout<<"if-float-branch-success-test";
+			cout<<"passed";
 		}
 	}
 
 	if(b>a){
 		if(b>c){
-			cout<<"if-float-branch-SHOULD-FAIL!!!!";
+			cout<<"failed";
 		}
 	}
 }

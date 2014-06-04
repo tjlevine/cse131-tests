@@ -3,6 +3,6 @@ function : void main(){
 	int b = 2;
 	int c = 5;
 	cout << (a == b) << endl;
-	cout << (a != b) << "fails" << endl;
+	cout << (a != a) << "fails" << endl;
 	cout << (b != c) << endl;
 }

@@ -3,7 +3,7 @@ function : void main(){
 	bool b = false;
 	if(a){
 		if(b){
-			cout << "oh hai" << endl; 
+			cout << "passed" << endl; 
 		}
 	}
 }
