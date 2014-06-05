@@ -7,7 +7,7 @@ function : float foo()
 function : void main()
 {
     cout << "in main" << endl;
-    int a = foo();
+    float a = foo();
     cout << a << endl;
     cout << "back in main" << endl;
 }

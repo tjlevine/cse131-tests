@@ -7,7 +7,7 @@ function : bool foo()
 function : void main()
 {
     cout << "in main" << endl;
-    int a = foo();
+    bool a = foo();
     cout << a << endl;
     cout << "back in main" << endl;
 }
