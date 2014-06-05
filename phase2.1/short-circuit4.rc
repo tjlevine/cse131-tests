@@ -7,5 +7,5 @@ function : bool foo()
 function : void main()
 {
     bool a = true;
-    cout << (a || foo()) << endl;;
+    cout << (a || foo()) << endl;
 }
