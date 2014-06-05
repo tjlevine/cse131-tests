@@ -14,5 +14,5 @@ function : void main(){
 	static const auto m = 8;
 	static const auto n = 9.0;
 	static const auto o = true;
-	cout<<a<<b<<c<<d<<e<<f<<g<<h<<i<<j<<k<<l<<m<<n<<o<<endl;
+	cout<<a<<b<<c<<d<<e<<f<<g<<h<<i<<j<<k<<l<<m<<n<<o<<10<<11.0<<false<<endl;
 }
