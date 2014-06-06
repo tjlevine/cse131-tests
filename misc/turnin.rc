@@ -8,5 +8,5 @@ function : int foo()
 function : void main()
 {
     x = 3 + 5;
-    cout << x << foo();
+    cout << x << foo() << endl;
 }
