@@ -2,9 +2,8 @@ int a = 5;
 
 function : int foo( int b )
 {
-    a--;
-    cout << a << endl;
-    if( a == 0 )
+    cout << b << endl;
+    if( b == 0 )
     {
         return 0;
     }
