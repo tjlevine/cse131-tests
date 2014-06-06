@@ -3,7 +3,7 @@ int a = 5;
 function : int foo( int b )
 {
     cout << b << endl;
-    if( b == 0 )
+    if( b == 1 )
     {
         return 0;
     }
