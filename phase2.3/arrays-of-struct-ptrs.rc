@@ -13,6 +13,15 @@ SPTR[10] a;
 
 function : void main()
 {
+    S[10] b;
+
+    int i = 0;
+    while( i < 10 )
+    {
+        a[i] = &b[i];
+        i++;
+    }
+
     a[4]->d = 11.12;
 
     cout << a[4]->d << endl;
