@@ -11,8 +11,7 @@ S s1;
 function : void main()
 {
     s1.x = 535;
-    S s;
-    s = s1;
+    S s = s1;
 
     cout << s.x << endl;
 }
