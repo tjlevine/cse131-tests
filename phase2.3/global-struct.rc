@@ -10,7 +10,7 @@ S s;
 
 function : void main()
 {
-    cout << "test" << endl;
+    s.x = 848;
 
     cout << s.x << endl;
 }
