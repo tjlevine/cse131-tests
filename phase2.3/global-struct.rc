@@ -8,4 +8,9 @@ structdef S
 
 S s;
 
-function : void main() {}
+function : void main()
+{
+    s.x = 2;
+
+    cout << s.x << endl;
+}
