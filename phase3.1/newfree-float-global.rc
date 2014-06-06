@@ -1,0 +1,9 @@
+float a;
+function : void main(){
+	new a;
+	cout << ((&a)>0) << endl;
+	a = 5.5;
+	cout << a << endl;
+	free a;
+	cout << ((&a)==0) << endl;
+}

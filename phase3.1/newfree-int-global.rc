@@ -1,0 +1,7 @@
+int a;
+function : void main(){
+	new a;
+	cout << ((&a)>0) << endl;
+	free a;
+	cout << ((&a)==0) << endl;
+}
