@@ -10,10 +10,10 @@ function : void main()
 
     p = &p2;
 
-    cout << *p << endl;
+    cout << **p << endl;
 
     p2 = &a;
 
     cout << *p2 << endl;
-    cout << *p << endl;
+    cout << **p << endl;
 }
