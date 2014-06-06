@@ -1,0 +1,15 @@
+int a = 2;
+int* p = &a;
+
+function : void main()
+{
+    int b = 5;
+    int* p2 = &b;
+
+    cout << *p << endl;
+    cout << *p2 << endl;
+
+    p2 = &a;
+
+    cout << *p2 << endl;
+}
