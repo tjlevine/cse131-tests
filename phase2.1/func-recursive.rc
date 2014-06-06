@@ -8,6 +8,11 @@ function : int foo()
     {
         return 0;
     }
+    // for some reason, the call to foo()
+    // is evaluated before a is here.
+    // therefore, we recurse all the way down
+    // until a is zero, then add zeros all the
+    // way back up.
     return a + foo();
 }
 
