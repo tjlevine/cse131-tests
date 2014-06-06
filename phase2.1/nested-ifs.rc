@@ -15,7 +15,7 @@ function : void main()
             cout << "bad1" << endl;
             if( c )
             {
-                cout << "bad2" endl;
+                cout << "bad2" << endl;
             }
         }
         else
