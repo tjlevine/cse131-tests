@@ -6,13 +6,13 @@ function : void main(){
 
 	if(b>a){
 		if(c>b){
-			cout<<"passed";
+			cout<<"passed" << endl;
 		}
 	}
 
 	if(b>a){
 		if(b>c){
-			cout<<"failed";
+			cout<<"failed" << endl;
 		}
 	}
 }
