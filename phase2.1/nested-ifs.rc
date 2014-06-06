@@ -4,8 +4,8 @@ const bool b = false;
 function : void main()
 {
     bool c = true;//a || b; // true (short circuit)
-    bool d = a && b; // false
-    bool e = c != b; // true
+    bool d = false;//a && b; // false
+    bool e = true;//c != b; // true
 
     if( a )
     {
