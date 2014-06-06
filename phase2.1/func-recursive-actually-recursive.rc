@@ -8,7 +8,7 @@ function : int foo( int b )
     {
         return 0;
     }
-    return b + foo();
+    return b + foo( b - 1 );
 }
 
 function : void main()
