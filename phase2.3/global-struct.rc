@@ -1,0 +1,11 @@
+structdef S
+{
+    int x;
+    bool a;
+    int y;
+    float c;
+};
+
+S s;
+
+function : void main() {}
