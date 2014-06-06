@@ -14,5 +14,6 @@ function : void main()
     S s;
     s = s1;
 
+    cout << s1.x << endl;
     cout << s.x << endl;
 }
