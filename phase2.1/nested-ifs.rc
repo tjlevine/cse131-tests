@@ -3,7 +3,7 @@ const bool b = false;
 
 function : void main()
 {
-    bool c = a || b; // true (short circuit)
+    bool c = true;//a || b; // true (short circuit)
     bool d = a && b; // false
     bool e = c != b; // true
 
