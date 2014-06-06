@@ -1,0 +1,24 @@
+const bool a = true;
+const bool b = false;
+
+static bool c = a && b; // false
+bool d = a || b; // true
+
+function : void main()
+{
+    bool e = a; // true
+    bool f = !e; // false
+    const bool g = b || c; // false
+    static bool h = e == a; // true
+    const static bool i = g != b; // false
+
+    cout << a << endl; // true
+    cout << b << endl; // false
+    cout << c << endl; // false
+    cout << d << endl; // true
+    cout << e << endl; // true
+    cout << f << endl; // false
+    cout << g << endl; // false
+    cout << h << endl; // true
+    cout << i << endl; // false
+}
