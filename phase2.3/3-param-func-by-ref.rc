@@ -8,7 +8,7 @@ function : int foo( int& a, float& b, bool& c )
 
     a = 1;
     b = 3.21;
-    c = false;
+    c = true;
 
     cout << "finished assigning" << endl;
     cout << a << endl;
