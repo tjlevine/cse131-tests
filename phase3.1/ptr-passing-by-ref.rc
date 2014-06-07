@@ -2,8 +2,6 @@ int[10] b;
 
 function : void foo( int*& a, int size )
 {
-    cout << --size << endl;
-    cout << size << endl;
     while( --size > 0 )
     {
         cout << "a[" << size << "]: " << a[size] << endl;
