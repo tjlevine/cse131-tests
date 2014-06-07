@@ -4,7 +4,7 @@ function : void foo( int*& a, int size )
 {
     while( --size > 0 )
     {
-        cout << a[size] << endl;
+        cout << "a[" << size << "]: " << a[size] << endl;
         b[size] = a[size] * 10;
     }
 
@@ -28,6 +28,6 @@ function : void main()
 
     while( i++ < 10 )
     {
-        cout << bb[i] << endl;
+        cout << "bb[" << i << "]" << bb[i] << endl;
     }
 }
