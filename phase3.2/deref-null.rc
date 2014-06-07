@@ -1,0 +1,6 @@
+int* p;
+
+function : void main()
+{
+    *p;
+}
