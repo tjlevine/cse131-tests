@@ -5,6 +5,16 @@ structdef S
     INTFUNC a;
 };
 
+function : int addTen( int x )
+{
+    return x + 10;
+}
+
+function : int addFive( int x )
+{
+    return x + 5;
+}
+
 function : void main()
 {
     int a = 15;
