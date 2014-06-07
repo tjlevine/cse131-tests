@@ -8,7 +8,7 @@ function : void foo( int*& a, int size )
         b[size] = a[size] * 10;
     }
 
-    a = &b;
+    a = &b[0];
 }
 
 function : void main()
