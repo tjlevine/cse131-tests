@@ -15,7 +15,7 @@ function : void main()
 
     while( i < 10 )
     {
-        aa[i]->a = i * 3242.3;
+        aa[i].a = i * 3242.3;
         cout << a->a << endl;
         i++;
         a++;
