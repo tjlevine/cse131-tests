@@ -3,7 +3,7 @@ typedef funcptr : int (int a) INTFUNC;
 structdef S
 {
     INTFUNC a;
-}
+};
 
 function : void main()
 {
