@@ -1,8 +1,10 @@
 function : void main(){
-	bool a;
+	bool *a;
+	bool *b;
 	new a;
-	cout << ((&a)>0) << endl;
-	a = true;
-	cout << true << endl;
-	free a;
-	cout << ((&a)==0) << endl;
+	cout << a == b << endl;
+	*a = true;
+	cout << *a << endl;
+	delete a;
+	cout << a << endl;
+}
