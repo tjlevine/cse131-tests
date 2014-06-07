@@ -1,0 +1,22 @@
+typedef funcptr : int (int a) INTFUNC;
+
+structdef S
+{
+    INTFUNC a;
+}
+
+function : void main()
+{
+    int a = 15;
+    S* s;
+    S b;
+    s = &b;
+
+    s->a = addTen;
+
+    cout << s->a(a) << endl;
+
+    s->a = addFive;
+
+    cout << s->a(a) << endl;
+}
