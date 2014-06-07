@@ -2,5 +2,7 @@ int* p;
 
 function : void main()
 {
-    *p;
+    cout << "goin' down swingin!" << endl;
+    (*p)++;
+    cout << "this should not print" << endl;
 }
